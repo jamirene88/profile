@@ -1,25 +1,26 @@
 body {
-  background-color: #F2F9F1;
+  background-color: #FCFFBF;
   font-family: 'Open Sans', sans-serif;
-  color: #7d7d7d;
+  color: #1D0411;
   line-height: 1.6em;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
-h1, h2, h3 {
-  color: #4F9524;
+h1, h3 {
+  color: #1D0411;
   font-family: 'Metal Mania', cursive;;
 }
 h2 {
-  color: #7d7d7d;
+  color: #1D0411;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
 }
 
 a {
   text-decoration: none;
-  color: #FD367E;
+  color: #C40017;
 }
 
 a:hover {
@@ -47,13 +48,13 @@ a:hover {
 }
 
 .container {
-  width: 600px;
+  width: 800px;
   margin: 30px auto;
 }
 
 .btn-green {
-  background-color: #FD367E;
-  color: #FFC3D0;
+  background-color: #C40017;
+  color: #292725;
   font-weight: 600;
   padding: 10px;
   border-radius: 4px;
@@ -68,14 +69,21 @@ li {
   padding-left: 0;
   display: block;
 }
+.inline-with-dots {
+  display: block;
+}
 
 .list-inline > li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.image-circle {
+.image {
   border-radius: 50%;
+  border-style: dashed;
+  border: 20px;
+  width: 130px;
+  border-color: #1D0411;
 }
 
 #movies {
@@ -92,6 +100,7 @@ p {
     margin-inline-end: 0px;
 }
 
+
 table {
   display: table;
   border-collapse: separate;
@@ -106,16 +115,16 @@ table {
 
 #sidebar {
   position: fixed;
-  width: 150px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #1ABB9C;
+  background-color: #1D0411;
 }
 #sidebar a {
     text-decoration: none;
     font-size: 25px;
-    color: #FD367E;
+    color: #C40017;
 }
 
 #sidebar ul {
@@ -128,11 +137,16 @@ table {
   text-align: center;
   padding: 20 0;
 }
+#summery {
+    background-image: linear-gradient(rgba(184,205,227, 0.70),
+      rgba(184,205,227, 0.70)),url(images/dawn-armfield-66060-unsplash.jpg);
+    background-size: cover;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 800px;
   }
   .movie {
     width: 200px;
