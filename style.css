@@ -52,12 +52,13 @@ a:hover {
   margin: 30px auto;
 }
 
-.btn-green {
+.btn-me {
   background-color: #C40017;
   color: #292725;
   font-weight: 600;
   padding: 10px;
   border-radius: 4px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.9);
 }
 
 li {
@@ -80,8 +81,7 @@ li {
 
 .image {
   border-radius: 50%;
-  border-style: dashed;
-  border: 20px;
+  border: 10px solid;
   width: 130px;
   border-color: #1D0411;
 }
@@ -127,6 +127,10 @@ table {
     color: #C40017;
 }
 
+#sidebar a hover {
+  color: #4EF035;
+}
+
 #sidebar ul {
     list-style: none;
     padding-left: 0px;
@@ -138,9 +142,16 @@ table {
   padding: 20 0;
 }
 #summery {
-    background-image: linear-gradient(rgba(184,205,227, 0.70),
-      rgba(184,205,227, 0.70)),url(images/dawn-armfield-66060-unsplash.jpg);
+    background-image: linear-gradient(rgba(184,205,227, 0.85),
+      rgba(184,205,227, 0.90)),url(images/dawn-armfield-66060-unsplash.jpg);
     background-size: cover;
+}
+
+.statement {
+  background-color: rgba(0 ,0 ,0 , 0.40);
+  font-weight: 20%;
+  color: white;
+
 }
 
 @media (max-width: 960px) {
