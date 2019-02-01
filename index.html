@@ -1,10 +1,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Jami Rules</title>
+    <title>Jami Owen</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
     <link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
     <link href="style.css" rel="stylesheet">
   </head>
@@ -15,6 +17,16 @@
         <li>
           <a href="#summery">
             <i class="fas fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#work-history">
+            <i class="fas fa-briefcase"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-songs">
+            <i class="fas fa-music"></i>
           </a>
         </li>
         <li>
@@ -31,16 +43,15 @@
     </div>
     <div class="container">
       <div class="card text-center" id="summery">
-        <img src="images/IMG_2617.jpg" alt="Jami Owen" width="100" class="image">
-        <h1>Jami <i class="fab fa-rebel"></i> Owen</h1>
-        <h2>Programmer @ My Mom's House</h2>
+        <img src="https://res.cloudinary.com/duqna6ouc/image/upload/c_fill,ar_1:1,g_auto,r_max,b_rgb:262c35/v1548981457/Le_Wagon_18.10.30-097.jpg" alt="Jami Owen" width="50" class="image">
+        <h1>Jami Owen</h1>
+        <h4>Candidate for Entry Level Software Developer / Data Scientist</h4>
         <div class="statement">
-          <p>I came here to chew bubble gum and kick ass.
-          </i><strong> THIS IS A BOLD STATEMENT</strong></p>
+          <p>Results-driven and motivated graduate with a Bachelor of Science degree actively seeking to transition to a career role in Software Development and Data Science. Applies strong attention to detail and efficient multi-tasking abilities to excel in critical development environments, with expertise in advanced SQL, Python, Ruby on Rails, HTML, CSS, and JavaScript. Serves as an effective member of dynamic technical teams, communicating in a clear and concise manner while exercising creative problem solving. Exceptional leadership and teamwork skills developed in the military.</p>
         </div>
         <a href="https://kitt.lewagon.com/alumni/jamirene88" target="_blank" class="btn-me">See for your self!</a>
       </div>
-      <div class="card text-center">
+      <div class="card text-center links">
         <ul class="list-inline">
           <li>
             <a href="https://www.facebook.com/JamiRene" target="_blank">
@@ -54,18 +65,89 @@
             <a href="https://www.instagram.com/jamirene88/" target="_blank">
               <i class="fab fa-instagram"></i> Instagram</a>
           </li>
+          <li>
+            <a href="https://github.com/jamirene88" target="_blank">
+              <i class="fab fa-github-alt"></i> GitHub</a>
+          </li>
         </ul>
       </div>
-      <div class="card text-center">
-        <h2>My Skills</h2>
-        <ul class="inline-with-dots" >
-          <li>Sleeping</li>
-          <li>This </li>
-          <li>and that</li>
-        </ul>
+
+
+      <div class="card text-center skills">
+        <h2>Skills</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <ul class="inline-with-dots" >
+              <li>Mathematics</li>
+              <li>R</li>
+              <li>MATLAB</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="inline-with-dots" >
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="inline-with-dots" >
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="inline-with-dots" >
+              <li>Problem Solving</li>
+              <li>Data Analysis</li>
+              <li>Team Leadership</li>
+            </ul>
+          </div>
+        </div>
       </div>
+
+      <div class="card" id="education-history">
+        <h2 class="text-center">Education History</h2>
+        <div class="schools">
+          <h5>Le Wagon</h5>
+          <h6>Lisbon, Portugal: batch 205, 2018 </h6>
+          <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of http://www.flavour-community.club (Mobile).</p>
+          <p>
+            <a href="https://youtu.be/RapAsDeoog8" target="_blank" class="btn-me">Demo Day</a>
+            <a href="https://kitt.lewagon.com/alumni/jamirene88" target="_blank" class="btn-me">Fact Check</a>
+          </p>
+        </div>
+        <div class="schools">
+          <h5>Western Washington University</h5>
+          <h6>Bellingham, WA: 2014-2017</h6>
+          <h6></h6>
+          <p>Studied and practiced the core understandings of pure mathematics. Emphasizing in statistics and data anaylists. Mastered mathematical programing languages MATLAB, R, and Mathematica.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="work-history">
+        <h2 class="text-center">Work History</h2>
+        <div class="jobs">
+          <h5>Position: Driver</h5>
+          <h6>Company: UPS</h6>
+          <p>Operated and maintained package delivery truck in south Manhattan. Responsible for the security and timely delivery of high value packages. Demonstrated time management skills and organizational abilities through route planning and communication to achieve required time commitments</p>
+        </div>
+        <div class="jobs">
+          <h5>Position: Administrative Assistant</h5>
+          <h6>Company: Jern's Funeral Chapel</h6>
+          <p>Coordinated and executed a variety of administrative and clerical responsibilities at this provider of funeral services to Whatcom County, including securing and filing official documentation, cash handling, and inventory management to support all facets of operations. Excelled in high-stress, highly sensitive environments, working with family members to remove and transport the deceased between homes, hospitals, and other facilities to the funeral home with the highest levels of compassion and dignity. Maintained and operated cremation machinery. Coordinated and led the training of new employees in the field, building competencies in all facets of removal and equipment handling.</p>
+        </div>
+        <div class="jobs">
+          <h5>Position: Communications Specialist</h5>
+          <h6>Company: United States Army</h6>
+          <p>Maintained accountability for military communications equipment valued in the millions of dollars in domestic and international assignments, safeguarding the health and welfare of enlisted soldiers in peacetime and combat theaters of operation. Maintained a secret security clearance during this role. Served as the Non-Commissioned Officer in Charge of a team in Afghanistan; assumed a lead role organizing and overseeing unit operations to ensure the achievement of all goals in a timely and accurate manner. Served in Headquarters Company, documenting and overseeing mandatory testing, leading procurement, and executing the scanning and filing of hardcopy documentation.</p>
+        </div>
+      </div>
+
       <div class="card text-center" id="favorite-movies">
-        <h2>My Favorite Movies</h2>
+        <h2>Favorite Movies</h2>
         <table id="movies">
           <tbody>
             <tr>
@@ -107,7 +189,7 @@
       </div>
       <div class="card text-center" id="footer">
         <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://lewagon.com/program" target="_blank">Fullstack program @ Le Wagon.</a> It was 'aight. <i class="far fa-thumbs-up"></i></p>
+        <p>This page has been coded during the <a class="le-wagon"href="https://lewagon.com/program" target="_blank">Fullstack program @ Le Wagon.</a> It was 'aight. <i class="far fa-thumbs-up"></i></p>
         <ul class="list-inline">
           <li>
             <a href="#"><i class="fas fa-heart"></i></a>

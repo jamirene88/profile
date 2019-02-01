@@ -1,5 +1,5 @@
 body {
-  background-color: #FCFFBF;
+  background-color: #CFFFE5;
   font-family: 'Open Sans', sans-serif;
   color: #1D0411;
   line-height: 1.6em;
@@ -7,9 +7,12 @@ body {
   font-weight: 500;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 h1, h3 {
   color: #1D0411;
-  font-family: 'Metal Mania', cursive;;
 }
 h2 {
   color: #1D0411;
@@ -25,6 +28,8 @@ a {
 
 a:hover {
   color: #4EF036;
+  text-decoration: none;
+
 }
 
 .text-center {
@@ -53,25 +58,33 @@ a:hover {
 }
 
 .btn-me {
-  background-color: #C40017;
+  background-color: #44BBA4;
   color: #292725;
   font-weight: 600;
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.9);
+  margin: 20px;
 }
 
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .list-inline {
   padding-left: 0;
   display: block;
 }
+
+.list-inline a {
+  color: #44BBA4;
+}
 .inline-with-dots {
   display: block;
+  padding-left: 0;
 }
 
 .list-inline > li {
@@ -81,9 +94,10 @@ li {
 
 .image {
   border-radius: 50%;
-  border: 10px solid;
-  width: 130px;
-  border-color: #1D0411;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 #movies {
@@ -94,10 +108,9 @@ li {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding: 10px;
 }
 
 
@@ -119,15 +132,15 @@ table {
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #1D0411;
+  background-color: #44BBA4;
 }
 #sidebar a {
     text-decoration: none;
     font-size: 25px;
-    color: #C40017;
+    color: #CFFFE5;
 }
 
-#sidebar a hover {
+#sidebar a:hover {
   color: #4EF035;
 }
 
@@ -142,8 +155,8 @@ table {
   padding: 20 0;
 }
 #summery {
-    background-image: linear-gradient(rgba(184,205,227, 0.85),
-      rgba(184,205,227, 0.90)),url(images/dawn-armfield-66060-unsplash.jpg);
+    background-image: linear-gradient(rgba(184,205,227, 0.70),
+      rgba(184,205,227, 0.80)),url(https://res.cloudinary.com/duqna6ouc/image/upload/v1548983772/Le_Wagon_18.11.22-10.jpg);
     background-size: cover;
 }
 
@@ -152,6 +165,22 @@ table {
   font-weight: 20%;
   color: white;
 
+}
+
+h2{
+  border-radius: 2px;
+  text-align: center;
+  border: dashed 1px #44BBA4;
+  background-color: #E5E5E8;
+  padding: 10px;
+}
+
+.links {
+  padding-bottom: 0;
+}
+
+.le-wagon {
+  color: #4EF035;
 }
 
 @media (max-width: 960px) {
